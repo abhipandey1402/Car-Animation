@@ -1,0 +1,146 @@
+/* .root-container {
+
+} */
+
+body {
+    background-size: 100%;
+    margin: 0;
+    background-image: url(https://media.istockphoto.com/id/596091416/photo/race-track-sunset.jpg?s=612x612&w=0&k=20&c=NkuEmU940yx1Zpa1yEopPSF3ArGx3aI7UC6BYyY_jBo=);
+}
+
+.backWheel{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 410px;
+    margin-left: 48px;
+    animation-name: backWhile1;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes backWhile1{
+
+    0%{
+        transform: rotate(0deg);
+        margin-top: 410px;
+        margin-left: 48px;
+    }
+    20%{
+        transform: rotate(200deg);
+        margin-top: 410px;
+        margin-left: 228px;
+    }
+    40%{
+        transform: rotate(400deg);
+        margin-top: 410px;
+        margin-left: 408px;;
+    }
+    60%{
+        transform: rotate(600deg);
+        margin-top: 410px;
+        margin-left:588px;
+    }
+    80%{
+        transform: rotate(800deg);
+        margin-top: 410px;
+        margin-left:768px;
+    }
+    100%{
+        transform: rotate(1000deg);
+        margin-top: 410px;
+        margin-left:948px; 
+    }
+
+}
+
+.frontWheel{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 412px;
+    margin-left: 259px;
+    animation-name: frontWhile1;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes frontWhile1{
+
+    0%{
+        transform: rotate(0deg);
+        margin-top: 410px;
+        margin-left: 259px;
+    }
+    20%{
+        transform: rotate(200deg);
+        margin-top: 410px;
+        margin-left: 439px;
+    }
+    40%{
+        transform: rotate(400deg);
+        margin-top: 410px;
+        margin-left: 619px;;
+    }
+    60%{
+        transform: rotate(600deg);
+        margin-top: 410px;
+        margin-left:799px;
+    }
+    80%{
+        transform: rotate(800deg);
+        margin-top: 410px;
+        margin-left:979px;
+    }
+    100%{
+        transform: rotate(1000deg);
+        margin-top: 410px;
+        margin-left:1159px; 
+    }
+
+}
+
+.car{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    margin-top: 320px;
+    animation-name: move;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+
+    0%{
+        
+        margin-top:320px;
+        left:0;
+    }
+    20%{
+        margin-top:320px;
+        left:180px;
+    }
+    40%{
+        margin-top:320px;
+        left:360px;
+    }
+    60%{
+        margin-top:320px;
+        left:540px;
+    }
+    80%{
+        margin-top:320px;
+        left:720px;
+    }
+    100%{
+        margin-top:320px;
+        left:900px;  
+    }
+
+}
